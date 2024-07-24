@@ -62,3 +62,20 @@
         height:650px;
     }
 }
+
+@media screen and (max-width:320px){
+    .heading{
+        font-size: 22px;
+    }
+    .form{
+        left:50px;
+        top:170px;
+        height:500px;
+        width:100%;
+    }
+    .page{
+        height:650px;
+    }
+
+    
+}
