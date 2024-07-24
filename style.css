@@ -5,7 +5,7 @@
 }
 
 .page{
-    background-color:aqua ;
+    background-color:blue;
     height:750px;
     width:100%;
     position:relative;
@@ -29,13 +29,18 @@
 .form input{
     padding: 5px;
     
+
+    
 }
 .heading{
     padding:40px;
     font-size:30px;
 }
+.heading h1{
+    color:white;
+}
 .form button{
-    background-color: aqua;
+    background-color: blue;
     padding:10px;
     border-radius: 20px;
     width:150px;
@@ -44,6 +49,7 @@
     font-size: 16px;
     cursor:pointer;
     border:none;
+    color:white;
 }
 .form button:hover{
     border:solid black 1px;
@@ -65,26 +71,3 @@
     }
 }
 
-@media screen and (max-width:320px){
-    .heading{
-        font-size: 22px;
-    }
-    .form{
-        left:50px;
-        top:170px;
-        height:500px;
-        width:100%;
-        font-size:12px ;
-        width:280px;
-        text-align: center;
-        padding:20px;
-    }
-    .page{
-        height:650px;
-    }
-    .form td{
-        padding: 5px;
-    }
-
-    
-}
