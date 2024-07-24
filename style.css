@@ -57,7 +57,9 @@
         left:50px;
         top:170px;
         height:200px;
+        
     }
+    
     .page{
         height:650px;
     }
@@ -72,9 +74,16 @@
         top:170px;
         height:500px;
         width:100%;
+        font-size:12px ;
+        width:280px;
+        text-align: center;
+        padding:20px;
     }
     .page{
         height:650px;
+    }
+    .form td{
+        padding: 5px;
     }
 
     
